@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 1 To Do List</title>
+    <title>Day 1 To-Do List</title>
 </head>
 <body>
     <h1>Day 1 To-Do List</h1>
     <input type="text" id="taskInput" placeholder="Task Name">
-    <input type="text" id="taskLink" placeholder="Task Link">
     <button onclick="saveTask()">Save Task</button>
+    <button onclick="deleteAllTasks()">Delete All</button> <!-- Button to trigger delete all tasks -->
     <ul id="taskList">
         <!-- To-Do tasks will be dynamically added here -->
     </ul>
